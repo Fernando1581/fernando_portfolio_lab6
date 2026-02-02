@@ -1,0 +1,28 @@
+.hero {
+    background-color: #FAF3E1;
+    min-height: 80vh;
+    display: flex;
+    align-items: center
+}
+
+.section-padding {
+    padding: 30px;
+}
+
+#projects {
+    background-color: #F5E7C6;
+}
+
+.navbar {
+    background-color: #DDBA7D;
+    font-size: large;
+}
+
+footer {
+    background-color: #DDBA7D;
+}
+
+.btn {
+    background-color: #FF6D1F;
+    border: none;
+}
