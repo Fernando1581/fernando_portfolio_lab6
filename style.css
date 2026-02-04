@@ -1,9 +1,21 @@
+
+
 .hero {
     background-color: #F5E7C6;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center
 }
+
+.hero img {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s;
+}
+
+.hero img:hover {
+  box-shadow: 0 15px 25px rgba(0,0,0,0.25);
+}
+
 
 .section-padding {
     padding: 30px;
@@ -14,6 +26,7 @@
 }
 
 .navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     background-color: #DDBA7D;
     font-size: large;
 }
@@ -38,4 +51,19 @@ footer {
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.contact-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.title-line {
+    width: 80px;
+    border: none;
+    height: 3px;
+    background-color: #000000;
+    margin: 1px auto 40px;
 }
